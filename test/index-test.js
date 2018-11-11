@@ -42,7 +42,7 @@ describe("addToCart()", function() {
 
     let itemPrice = getCart()[0].itemPrice;
 
-    expect(itemPrice).toBeLessThanOrEqualTo(5)
+    expect(itemPrice).toBeLessThanOrEqualTo(2)
                      .toBeGreaterThanOrEqualTo(1);
   });
 
